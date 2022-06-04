@@ -1,0 +1,31 @@
+body{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.button {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    background-color: #1f2937;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
