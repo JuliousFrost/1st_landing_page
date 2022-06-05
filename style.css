@@ -1,12 +1,19 @@
-body{
+body {
     font-family: 'Gothic A1', sans-serif;
     font-weight: 300;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
+
 .button {
     font-family: 'Gothic A1', sans-serif;
     font-weight: 600;
@@ -15,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 3px;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,10 +30,58 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     background-color: #1f2937;
 }
-ul{
+
+ul {
     display: flex;
     gap: 50px;
     list-style: none;
-    
+
 }
 
+.monitor {
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.linkedin {
+    background-color: #3882f6;
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech {
+    display: flex;
+    height: 250px;
+    width: auto;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
