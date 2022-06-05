@@ -70,18 +70,44 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
 }
 
 .tech {
     display: flex;
-    height: 250px;
+    height: 150px;
     width: auto;
     justify-content: space-around;
-    gap: 150px;
+    gap: 120px;
+    margin-top: 35px;
 }
 
 .one{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.one p{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.third{
+    text-align: center;
+    margin-top: 250px;
+    background-color: #E5E7EB;
+    padding: 70px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+flex-direction: column;
+align-items:flex-end;
+}
+
+.third p{
+    font-size: 36px;
+}
+.name{
 }
