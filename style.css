@@ -119,6 +119,7 @@ align-items:flex-end;
     padding: 40px 100px;
     color: white;
     font-weight:bold;
+    border-radius: 10px;
     
  
 }
@@ -134,4 +135,14 @@ div.cv{
     border: 2px solid white;
     padding: 10px;
     border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    background-color: #1f2937;
+    padding: 40px;
 }
